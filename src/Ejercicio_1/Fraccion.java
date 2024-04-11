@@ -7,7 +7,7 @@ public class Fraccion {
 	
 	Fraccion ()
 	{
-		numerador = 0;
+		numerador = 1;
 		denominador = 1;
 	}
 	
@@ -32,11 +32,8 @@ public class Fraccion {
 	
 	public void invertirSigno()
 	{
-		if (numerador > 0 || numerador < 0)
-		{
-			int numero = numerador * -1;
-			System.out.println(numero);
-		}
+		numerador = numerador * -1;
+		System.out.println(numerador);
 		
 	}
 	
