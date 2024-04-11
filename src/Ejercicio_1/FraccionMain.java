@@ -11,7 +11,7 @@ public class FraccionMain {
 		f1.setDenominador(3);
 		
 		
-		//método de clase static Fraccion producto(Fraccion q1, Fraccion q2)
+		
 		
 			
 		

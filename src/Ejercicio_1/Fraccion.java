@@ -82,5 +82,7 @@ public class Fraccion {
 		return (numerador * denominador)/
 	}*/
 	
+	//método de clase static Fraccion producto(Fraccion q1, Fraccion q2)
+	
 
 }
