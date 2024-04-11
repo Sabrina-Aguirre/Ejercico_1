@@ -8,7 +8,7 @@ public class Fraccion {
 	Fraccion ()
 	{
 		numerador = 0;
-		denominador = 0;
+		denominador = 1;
 	}
 	
 	public void setNumerador(int value) 
@@ -27,5 +27,60 @@ public class Fraccion {
 	{
 		System.out.println("La fracion es: " + numerador + "/" + denominador);
 	}
+	
+	// método de instancia void invertirSigno()
+	
+	public void invertirSigno()
+	{
+		if (numerador > 0 || numerador < 0)
+		{
+			int numero = numerador * -1;
+			System.out.println(numero);
+		}
+		
+	}
+	
+	// void invertir()
+	public void invertir()
+	{
+		if( numerador < 0 ) 
+		{
+			int numero = numerador * -1;
+			System.out.println("La fracion invertida es: " + denominador + "/" + numero);
+		}
+		
+	}
+	
+	//método de instancia double aDouble()
+	public void aDouble() 
+	{
+		float resultado = denominador / numerador;
+		System.out.println(resultado);
+	}
+	
+	
+	// metodo maximo comun divisor
+	/*public int mcd(int numerador, int denominador) 
+	{
+		int aux;
+		while(denominador != 0)
+		{
+			aux = denominador;
+			
+			denominador = numerador % denominador;
+			
+			numerador= denominador;
+			
+			numerador=aux;
+		}
+		return numerador;
+		
+	}
+	//método de instancia void reducir()
+	public int reducir(int numerador, int denominador) 
+	{
+		return (numerador * denominador)/
+	}*/
+	
 
 }
